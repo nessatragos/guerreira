@@ -178,16 +178,24 @@
               "angle": 0,
               "id": "c90696de-17e9-4dee-b16d-a1d871a60705",
               "z": 5,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "DNS Spoofing",
+                  "type": "Spoofing"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "DNS Server"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -199,7 +207,7 @@
               },
               "position": {
                 "x": 153,
-                "y": 192
+                "y": 195
               },
               "angle": 0,
               "id": "33899e75-a80e-41c4-9521-1b788587271d",
@@ -256,16 +264,24 @@
               "angle": 0,
               "id": "89239c16-7451-482a-a4ea-abb1336828a6",
               "z": 8,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Web Service Process Memory Tampered",
+                  "type": "Tampering"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "External Web Serv"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -630,6 +646,10 @@
               },
               "vertices": [
                 {
+                  "x": 452,
+                  "y": 77
+                },
+                {
                   "x": 422,
                   "y": 225
                 }
@@ -828,8 +848,8 @@
                 "height": 100
               },
               "position": {
-                "x": 549,
-                "y": 22
+                "x": 514,
+                "y": 17
               },
               "angle": 0,
               "id": "cc9d0e2c-f7b9-4a0d-a721-f6a119508c7a",
@@ -862,6 +882,8 @@
                   "title": "Data Flow HTTP Is Potentially Interrupted"
                 }
               ],
+              "privilegeLevel": "Low",
+              "outOfScope": false,
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasOpenThreats isInScope"
@@ -878,7 +900,8 @@
               "type": "tm.Flow",
               "smooth": true,
               "source": {
-                "id": "cc9d0e2c-f7b9-4a0d-a721-f6a119508c7a"
+                "x": 529,
+                "y": 104
               },
               "target": {
                 "id": "8d7e2caf-3572-4b6f-8954-5d75a8a849b6"
@@ -1037,16 +1060,42 @@
               "angle": 0,
               "id": "1cfa235b-b1a0-4169-8151-d26fbc2925e7",
               "z": 31,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
+                  "title": "Generic repudiation threat",
+                  "type": "Repudiation",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic repudiation threat"
+                },
+                {
+                  "ruleId": "13000296-b17d-4b72-9cc4-f5cc33f80e4c",
+                  "title": "Generic information disclosure threat",
+                  "type": "Information disclosure",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic information disclosure threat"
+                },
+                {
+                  "ruleId": "edb05d76-a695-455f-947b-7d67b78bc31d",
+                  "title": "Generic DoS threat",
+                  "type": "Denial of service",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic DoS threat"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "FTP"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
