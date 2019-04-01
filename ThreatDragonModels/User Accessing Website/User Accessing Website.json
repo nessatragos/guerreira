@@ -834,16 +834,43 @@
               "angle": 0,
               "id": "cc9d0e2c-f7b9-4a0d-a721-f6a119508c7a",
               "z": 26,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Browser Client May be Subject to Elevation of Privilege Using Remote Code Execution",
+                  "type": "Elevation of privilege",
+                  "description": "Firewall may be able to remotely execute code for Browser Client."
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Impersonation",
+                  "type": "Elevation of privilege"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Human Spoofing",
+                  "type": "Spoofing"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Denial of service",
+                  "title": "Data Flow HTTP Is Potentially Interrupted"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Browser Client"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -996,12 +1023,64 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 659,
+                "y": 18
+              },
+              "angle": 0,
+              "id": "1cfa235b-b1a0-4169-8151-d26fbc2925e7",
+              "z": 31,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "FTP"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 675,
+                "y": 325
+              },
+              "angle": 0,
+              "id": "953c6111-f1dc-409c-9f14-cbcbaf60ece3",
+              "z": 32,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "File Server"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
         "size": {
           "height": 2175.20947265625,
-          "width": 1205
+          "width": 1362
         }
       }
     ]
