@@ -454,7 +454,12 @@
               "target": {
                 "id": "33899e75-a80e-41c4-9521-1b788587271d"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 324,
+                  "y": 156
+                }
+              ],
               "id": "c17667f9-0e4f-4ed4-b28c-36fd42eb987c",
               "labels": [
                 {
@@ -568,8 +573,8 @@
               },
               "vertices": [
                 {
-                  "x": 468,
-                  "y": 291
+                  "x": 482,
+                  "y": 209
                 }
               ],
               "id": "07530fa8-afb0-4615-a2bd-a665e1b09434",
@@ -585,7 +590,12 @@
               "target": {
                 "id": "c90696de-17e9-4dee-b16d-a1d871a60705"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 381,
+                  "y": 155
+                }
+              ],
               "id": "82e05f9e-7fff-4f84-b02a-30f8b68fd9a8",
               "labels": [
                 {
@@ -600,6 +610,46 @@
                 }
               ],
               "z": 21,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "c90696de-17e9-4dee-b16d-a1d871a60705"
+              },
+              "target": {
+                "x": 463,
+                "y": 190
+              },
+              "vertices": [
+                {
+                  "x": 440,
+                  "y": 129
+                }
+              ],
+              "id": "acb7835b-4a8d-4b6a-8372-1251420f6902",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 22,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
