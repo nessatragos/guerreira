@@ -880,6 +880,12 @@
                   "severity": "Medium",
                   "type": "Denial of service",
                   "title": "Data Flow HTTP Is Potentially Interrupted"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Repudiation",
+                  "title": "Potential Data Repudiation by DNS Server"
                 }
               ],
               "privilegeLevel": "Low",
