@@ -118,8 +118,15 @@
                   "status": "Open",
                   "severity": "Medium",
                   "description": "A generic repudiation threat"
+                },
+                {
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "title": "Cross Site Scripting",
+                  "type": "Tampering"
                 }
               ],
+              "outOfScope": false,
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasOpenThreats isInScope"
@@ -243,8 +250,8 @@
                 "height": 80
               },
               "position": {
-                "x": 290,
-                "y": 357
+                "x": 259,
+                "y": 353
               },
               "angle": 0,
               "id": "89239c16-7451-482a-a4ea-abb1336828a6",
