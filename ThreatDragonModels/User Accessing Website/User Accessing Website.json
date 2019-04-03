@@ -19,8 +19,8 @@
                 "height": 80
               },
               "position": {
-                "x": 100,
-                "y": 306
+                "x": 12,
+                "y": 42
               },
               "angle": 0,
               "id": "f47ca8af-5fb6-49bf-81d0-17d18e2c2a53",
@@ -37,7 +37,7 @@
                 },
                 {
                   "ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
-                  "title": "Generic repudiation threat",
+                  "title": "Browser Deny Given Output",
                   "type": "Repudiation",
                   "status": "Open",
                   "severity": "Medium",
@@ -191,8 +191,8 @@
               },
               "vertices": [
                 {
-                  "x": 129,
-                  "y": 252
+                  "x": 100,
+                  "y": 206
                 }
               ],
               "id": "55447c9d-dc6f-42a6-8cb4-b72a96a916bd",
